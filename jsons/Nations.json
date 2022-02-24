@@ -1,0 +1,34 @@
+[
+	{
+		"name": "Hutt Criminal Empire",
+		"leaderName": "Jabba the Hutt",
+		"adjective": ["?"],
+		"preferredVictoryType": "Diplomatic", /for peace and more income
+		
+		"startIntroPart1": "It has been revealed that this land has many valuable resources to the empire, and that there might be enemies of the empire being fostered here. You are to investigate, claim the resources for the empire and, if enemies are to be found, destroy them.",
+		"startIntroPart2": "General: You have been chosen personally to lead the Empire Occupation of this planet, I will be overseeing your progress. Failure will not be tolerated.",					
+		
+		"declaringWar": "Neek me chowa, wermo, mo killee ma klounkee! — Next time we meet, idiot, it will be the end of you!.",
+		"attacked": "Nee choo! — Die!",
+		"defeated": "Sleemo!",
+		"introduction": "H'chu apenkee! — Hello!",
+		"neutralHello": "Chuba! — Hey you!",		
+		"neutralLetsHearIt": "Man-tah. — Speak.",
+		"neutralNo": "No.",
+		"neutralYes": "It is...Acceptable.",
+		"hateHello": "Hi chuba du naga? — What do you want?",	
+		"hateLetsHearIt": "...Speak Fast.",
+		"hateNo": "Noah, noah! — No, no!",
+		"hateYes": "It is...Acceptable.",
+		"afterPeace": "Solo chuba killya - You might be allowed to leave here alive.",
+		"tradeRequest": "Dobrah gusha tu trawbbio grandio, mendeeya. — It would be an honor if the great one took it.",
+		
+		"outerColor": [255,255,255],
+		"innerColor": [204,0,0],
+		"uniqueName": "?",
+		"uniques": ["?[+100]%",
+		?
+		"cities": ["Nal Hutta","Tatooine","?","?","?","?","?","?","Illum","Alzoc","Byss","Corulag", "Corellia","Kashyyk","Shola","Kyloth","Bespin","Bestine","Sullust","Polus","Jabiin","Carida","Anaxes","Fondor"]
+	},
+other crime
+]
