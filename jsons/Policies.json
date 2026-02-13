@@ -66,7 +66,7 @@
             {
                 "name": "Monumentalism",
                 "uniques": [
-                   "[+1 Production, +1 Science] from every [Wonder]"
+                   "[+1 Production, +1 Faith] from every [Wonder]"
                 ],
                 "row": 3,
                 "column": 6
@@ -75,6 +75,7 @@
 				"name": "Tradition Complete",
 				"uniques": [
 					"[+15]% growth [in all cities]",
+					"Adopt [Mandate Of Heaven] <hidden from users>",
 					"Provides the cheapest [Culture] building in your first [4] cities for free",
 					"May buy [Great Engineer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
 				]
@@ -154,7 +155,8 @@
             },
             {
                 "name": "Liberty Complete",
-                "uniques": ["Free Great Person"]
+                "uniques": ["Free Great Person",
+					"Adopt [Diplomatic Missions] <hidden from users>"]
             }
         ]
     },
@@ -259,7 +261,7 @@
 		"uniques": [
 			"[+50]% Production when constructing [Shrine] buildings [in all cities]",
 			"[+50]% Production when constructing [Temple] buildings [in all cities]",
-		 "Adopt [Organized Religion]", 
+		 "Adopt [Organized Religion]", "[4] [Pikeman]s rebel <hidden from users>",
 	                "Only available <before the [Industrial era]>",
 			"Only available <when religion is enabled>"
 		],
@@ -296,6 +298,7 @@
 				"name": "Reformation",
 				"uniques": [
 					"Gain a free [Enhancer] belief <after founding a Religion>", // If you founded a religion, gain a bonus Reformation belief.
+					"[+3 Science] from every [Holy site]",
 					"Comment [Allows adopting [Reformation] Beliefs into your Religion]"
 				],
 				"row": 3,
@@ -349,7 +352,7 @@
 		"uniques": [
 			"[-25]% City-State Influence degradation",
 			"[-100]% weight to this choice for AI decisions <when number of [Remaining [City-State] Civilizations] is less than [5]>", 
-		 "Adopt [Philantropy]", 
+		 "Adopt [Philantropy]", "[4] [Pikeman]s rebel <hidden from users>",
 			"Unavailable <after adopting [Order]> <hidden from users>",
 			"Unavailable <after adopting [Autocracy]> <hidden from users>",
 		],
@@ -418,7 +421,7 @@
 		},
 		"uniques": [
 			"[+10]% [Science] <while the empire is happy>",
-		 "Adopt [Secularity]", 
+		 "Adopt [Secularity]", "[5] [Rifleman]s rebel <hidden from users>",
 			"Free Social Policy <if no other Civilization has adopted this>", // Early Adopter (usually provided to the first two civs)
 			"Unavailable <after adopting [Order]> <hidden from users>",
 			"Unavailable <after adopting [Autocracy]> <hidden from users>",
@@ -484,6 +487,7 @@
 		"uniques": [
 			"[+1] Movement <for [{Military} {Water}] units>",
 			"[+1] Sight <for [{Military} {Water}] units>",
+			"[4] [Musketman]s rebel <hidden from users>",
 		 "Adopt [Maritime Infrastructure]", 
 		],
 		"era": "Medieval era",
@@ -549,7 +553,8 @@
 				"name": "Exploration Complete",
 				"uniques": [
 					"Discover [Hidden Antiquity Sites]",
-					"[+3 Culture] [in all coastal cities]",
+					"[+3 Culture] [in all coastal cities]",,
+					"Adopt [Trade Unions] <hidden from users>", 
 					"May buy [Great Admiral] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
 				],
 				"civilopediaText": [
@@ -572,7 +577,7 @@
 		},
 		"uniques": [
 			"[+25]% [Gold] [in capital]",
-		 "Adopt [Wagon Trains]", 
+		 "Adopt [Wagon Trains]", "[4] [Musketman]s rebel <hidden from users>",
 					"Unavailable <after adopting [Order]> <hidden from users>",
 			"Unavailable <after adopting [Autocracy]> <hidden from users>",
 		],
@@ -630,6 +635,7 @@
 				"name": "Commerce Complete",
 				"uniques": [
 					"[+1 Gold] from every [Trading post]",
+					"Adopt [Free Trade] <hidden from users>", 
 					"May buy [Great Merchant] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
 				]
 			}
@@ -644,6 +650,7 @@
 			"[Great Artist] is earned [25]% faster",
 			"[Great Musician] is earned [25]% faster",
 			"[Great Writer] is earned [25]% faster",
+			"[4] [Pikeman]s rebel <hidden from users>",
 		 "Adopt [Cultural Centers]",
 		],
 		"priorities": {
@@ -717,6 +724,7 @@
 			{
 				"name": "Aesthetics Complete",
 				"uniques": [
+					"Adopt [World Expo] <hidden from users>", 
 					"Comment [[Culture] and [Tourism] [Theming Bonus] is doubled from [Museum]s and [Wonders]]",
 					"Comment [May buy [Great Artist]s, [Great Musician]s, and [Great Writer]s with [Faith] starting in the [Industrial era]]",
 					"May buy [Great Artist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]> <hidden from users>",
@@ -744,6 +752,7 @@
 			"Unavailable <after adopting [Order]> <hidden from users>",
 			"Free Social Policy <if no other Civilization has adopted this>", // Early Adopter (usually provided to the first two civs)
 			"Remove [Ideology] [in capital] <hidden from users>",
+			"[6] [Great War Infantry]s rebel <hidden from users>",
 		 "Adopt [Populism] <hidden from users>",
 		 "Adopt [Fascism] <hidden from users>", 
 
@@ -997,6 +1006,7 @@
 			"Unavailable <after adopting [Autocracy]> <hidden from users>",
 			"Free Social Policy <if no other Civilization has adopted this>", // Early Adopter (usually provided to the first two civs)
 			"Remove [Ideology] [in capital] <hidden from users>",
+			"[6] [Great War Infantry]s rebel <hidden from users>",
 		 "Adopt [Communism] <hidden from users>", 
 		 "Adopt [Socialism] <hidden from users>", 
 
@@ -1246,6 +1256,7 @@
 			"Unavailable <after adopting [Autocracy]> <hidden from users>",
 			"Free Social Policy <if no other Civilization has adopted this>", // Early Adopter (usually provided to the first two civs)
 			"Remove [Ideology] [in capital] <hidden from users>",
+			"[6] [Great War Infantry]s rebel <hidden from users>",
 		 "Adopt [Free Speech] <hidden from users>", 
 		 "Adopt [Constitution] <hidden from users>", 
 
@@ -1277,7 +1288,7 @@
 			{
 				"name": "Creative Expression",
 				"uniques": [
-					"[+1 Culture] from all [National Wonder] buildings",
+					"[+1 Culture] from all [Great Work] buildings",
 					"Instantly provides [1] [Level 1 Policy] <hidden from users>"
 				],
 				"row": 1,
@@ -1493,7 +1504,7 @@
 				"name": "Mandate Of Heaven",
 				"uniques": [
 					"[Faith] cost of purchasing items in cities [-20]%", // TODO: Make this not applicable to Great People
-			"Comment [Recommended for Freedom & Autocracy civs]"
+			"Comment [Tradition;Recommended for Freedom & Autocracy civs]"
 				],
 				"row": 1,
 				"column": 1
@@ -1503,7 +1514,7 @@
 				"uniques": [
                     "[1] free [Diplomat] units appear", "[1] free [Diplomat] units appear <upon entering a new era>",
                 "May buy [Diplomat] units for [1275] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([725]) <starting from the [Industrial era]>",
-			"Comment [Recommended for Freedom civs]",
+			"Comment [Liberty;Recommended for Freedom civs]",
 				],
 				"row": 1,
 				"column": 3
@@ -1524,7 +1535,7 @@
                 "name": "State Logistics",
                 "uniques": [
                     "[-25]% maintenance on road & railroads", "Improves movement speed on roads",
-			"Comment [Recommended for Order & Autocracy civs]",
+			"Comment [Honor;Recommended for Order & Autocracy civs]",
                 ],
                 "row": 1,
                 "column": 8
@@ -1535,7 +1546,7 @@
                                         "[+10]% [Production] [in all cities]",
                     "Gain a free [Library] [in this city] <upon founding a city>",
                     "Gain a free [Aqueduct] [in this city] <upon founding a city>",
-			"Comment [Recommended for Freedom & Autocracy civs]",
+			"Comment [Rationality;Recommended for Freedom & Autocracy civs]",
 				],
 				"row": 2,
 				"column": 1
@@ -1544,7 +1555,7 @@
                 "name": "Free Trade",
                 "uniques": [
                     "Retain [25]% of the happiness from a luxury after the last copy has been traded away",
-			"Comment [Recommended for Freedom & Autocracy civs]",
+			"Comment [Commerce;Recommended for Freedom & Autocracy civs]",
 		],
                 "row": 2,
                 "column": 3
@@ -1553,7 +1564,7 @@
                 "name": "Monasticism",
                 "uniques": [
 			"Gain a free [Garden] [in all cities]", "[+1 Faith] from every [Garden]",
-			"Comment [Recommended for Freedom civs]",
+			"Comment [Piety;Recommended for Freedom civs]",
 		],
                 "row": 2,
                 "column": 5
@@ -1564,7 +1575,7 @@
 					"Can spend Gold to annex or puppet a City-State that has been your Ally for [10] turns",
                     "Allied City-States provide [Gold] equal to [+30]% of what they produce for themselves",
 					"Allied City-States provide [Food] equal to [+40]% of what they produce for themselves",
-			"Comment [Recommended for Freedom & Autocracy civs]",
+			"Comment [Exploration;Recommended for Freedom & Autocracy civs]",
 				],
 				"row": 2,
 				"column": 8
@@ -1574,7 +1585,7 @@
                 "uniques": [
 		    "Influence of all other civilizations with all city-states degrades [25]% faster", "Triggers the following global alert: [Our influence with City-States has started dropping faster!]",
                     "Free [Worker] appears <upon founding a city>",
-			"Comment [Recommended for Order & Autocracy civs]",
+			"Comment [Patronage;Recommended for Order & Autocracy civs]",
                 ],
                 "row": 3,
                 "column": 1
@@ -1604,7 +1615,7 @@
                 "uniques": [
                     "[+1 Happiness] from all [Culture] buildings <when below [-10] [Happiness]>",
                     "[+33]% [Happiness] from every [Amphitheater]","[+33]% [Happiness] from every [Theatre]",
-			"Comment [Recommended for Freedom civs]",
+			"Comment [Aesthetics;Recommended for Freedom civs]",
                 ],
                 "row": 3,
                 "column": 8
@@ -1619,3 +1630,4 @@
 		]
 	}
 ]<if no other Civilization has researched this> <if starting in the [Ancient era]>"
+
