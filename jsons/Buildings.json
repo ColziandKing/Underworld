@@ -15,14 +15,6 @@
 		"hurryCostModifier": 5,
 		"uniques": ["Unavailable <in cities with a [Palace]> <hidden from users>", "Will not be displayed in Civilopedia <hidden from users>", "Unbuildable <hidden from users>", "Can be purchased with [Gold] [in all cities] <after discovering [Horseback Riding]> <hidden from users>", "Remove [Palace] [in all cities] <hidden from users>", "Gain a free [Palace] [in this city] <hidden from users>", "Cost increases by [5] per owned city <hidden from users>", "Cost increases by [5] when built <hidden from users>"]
         },
-
-	{
-		"name": "Utopia Project",
-		"cost": 1500,
-		"isNationalWonder": true,
-		"uniques": ["Unavailable <when number of [Completed Policy branches] is less than [5]>", "Triggers a global alert upon build start",
-			"Triggers a Policy Victory upon completion", "Only available <when [Policy] Victory is enabled>", "Cannot be hurried"]
-	},
 	{
 		"name": "Harbor",
 		"cost": 120,
@@ -43,46 +35,6 @@
 			}
 		]
 	},
-		//Hong Kong
-		{
-			"name": "Dragon Dock",
-			"replaces": "Harbor",
-			"uniqueTo": "Hong Kong",
-			"cost": 120,
-			"maintenance": 3,
-			"hurryCostModifier": 25,
-			"uniques": ["[+1 Production] from [Water resource] tiles [in this city]",
-			 "[+1 Culture] from [Coast] tiles [in this city]",
-			  "[+1 Culture, +1 Gold] from [Lake] tiles [in this city]",
-				"Connects trade routes over water","Must be next to [Water]"],
-			"requiredTech": "Optics"
-		},
-
-		//Samoa
-		{
-			"name": "Fale Tele",
-			"replaces": "Harbor",
-			"uniqueTo": "Samoa",
-			"faith": 1,
-			"cost": 90,
-			"maintenance": 2,
-			"hurryCostModifier": 25,
-			"uniques": ["[+1 Production] from [Water resource] tiles [in this city]",
-				"Connects trade routes over water","Must be next to [Coast]"],
-			"requiredTech": "Theology"
-		},
-		//Malaysia
-		{
-			"name": "Dermaga",
-			"replaces": "Harbor",
-			"uniqueTo": "Malaysia",
-			"cost": 120,
-			"maintenance": 2,
-			"hurryCostModifier": 25,
-			"uniques": ["[+1 Production, +1 Gold] from [Water resource] tiles [in this city]", "[+1 Culture] from each Trade Route",
-				"Connects trade routes over water","Must be next to [Coast]"],
-			"requiredTech": "Optics"
-		},
 	{
 		"name": "Stonehenge",
 		"faith": 5,
@@ -92,22 +44,6 @@
 		"uniques": ["Gain a free [Pantheon] belief <before founding a Religion>"],
 		"quote": "'Time crumbles things; everything grows old and is forgotten under the power of time' - Aristotle"
 	},
-    {
-        "name": "Grand Canal of Venice",
-        "uniqueTo": "Venice",
-        "replaces": "East India Company",
-        "cost": 125,
-        "gold": 4,
-        "percentStatBonus": {"gold": 25},
-        "isNationalWonder": true,
-        "uniques": [
-            "Cost increases by [30] per owned city",
-            "Provides [2] [Trade Route]",
-            "[+4 Gold] from [Trading post] tiles [in this city]",
-            "[+4 Gold] from [Fishing Boats] tiles [in this city]"
-        ],
-        "requiredTech": "Currency"
-    },
 
     {
         "name": "Dojo",
