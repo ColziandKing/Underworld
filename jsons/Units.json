@@ -30,21 +30,6 @@
 		"promotions": ["Accuracy I"],
 		"attackSound": "arrow"
 	},
-    {
-        "name": "Seaxman",
-        "replaces": "Longswordsman",
-        "uniqueTo": "The Franks",
-        "unitType": "Sword",
-        "movement": 2,
-        "strength": 22,
-        "cost": 115,
-        "requiredTech": "Chivalry",
-        "promotions": ["Amphibious","Cover I"],
-        "upgradesTo": "Musketman",
-        "obsoleteTech": "Gunpowder",
-        "requiredResource": "Iron",
-        "attackSound": "metalhit"
-    },
 	{
 		"name": "Foreign Legion",
 		"unitType": "Gunpowder",
@@ -122,21 +107,6 @@
         "attackSound": "metalhit"
     },
     {
-        "name": "Pittore",
-        "uniqueTo": "Italy",
-        "replaces": "Great Artist",
-        "unitType": "Civilian",
-        "uniques": [
-            "Empire enters a [12]-turn Golden Age <by consuming this unit>",
-            "Instantly provides [1] [Great Work of Art] <by consuming this unit>",
-            "Is part of Great Person group [Artist]",
-            "Great Person - [Culture]",
-            "Unbuildable",
-            "Uncapturable"
-        ],
-        "movement": 4
-    },
-    {
         "name": "Pioneer",
         "uniqueTo": "America",
         "replaces": "Settler",
@@ -152,19 +122,6 @@
         "promotions": ["Ignore terrain cost"],
         "hurryCostModifier": 20,
         "attackSound": "nonmetalhit"
-    },
-    {
-        "name": "Ranchero",
-        "replaces": "Settler",
-        "uniqueTo": "Mexico",
-        "unitType": "Civilian",
-        "movement": 2,
-        "cost": 106,
-        "uniques": [
-            "Founds a new city <by consuming this unit>",
-            "Requires at least [2] population"
-        ],
-        "hurryCostModifier": 20
     },
 	{
 		"name": "Dromon",
@@ -227,28 +184,6 @@
 			"[-33]% Strength <when defending>", "Must set up to ranged attack", "[-1] Sight"],
 		"hurryCostModifier": 20,
 		"attackSound": "throw"
-	},
-	{
-		"name": "Nau",
-		"uniqueTo": "Portugal",
-		"replaces": "Caravel",
-		"unitType": "Melee Water",
-		"movement": 5,
-		"strength": 20,
-		"cost": 120,
-		"hurryCostModifier": 30,
-		"requiredTech": "Astronomy",
-		"upgradesTo": "Ironclad",
-		"obsoleteTech": "Combustion",
-		"uniques": [
-			"Can move after attacking",
-			"[+1] Sight","Gain [50]-[250] [Gold]",
-"[This Unit] gains [8] XP <upon ending a turn in a [Ocean] tile>",
-			"Withdraws before melee combat <with [80]% chance>"
-			// TODO: Sell Exotic Goods: This unit will sell its cargo, earning Gold and XP
-			// More will be earned for selling farther from your Capital. This may only be done once with this unit.
-		],
-		"attackSound": "nonmetalhit"
 	},
 	{
 		"name": "Diplomat",
