@@ -1,0 +1,145 @@
+[
+	{
+		"name": "Farm",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains"],
+		"food": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Agriculture",
+		"uniques": ["Can be built outside your borders","Can also be built on tiles adjacent to fresh water",
+			"[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
+			"[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
+            "Pillaging this improvement yields approximately [+18 Gold]"],
+		"shortcutKey": "F"
+	},
+	{
+		"name": "Lumber mill",
+		"terrainsCanBeBuiltOn": ["Forest"],
+		"production": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Construction",
+		"uniques": ["Can be built outside your borders","[+1 Production] <after discovering [Scientific Theory]>", "Pillaging this improvement yields approximately [+10 Gold]"],
+		"shortcutKey": "L"
+	},
+	{
+		"name": "Mine",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"production": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Mining",
+		"uniques": ["Can be built outside your borders","[+1 Production] <after discovering [Chemistry]>", "Pillaging this improvement yields approximately [+20 Gold]"],
+		"shortcutKey": "M"
+	},
+	{
+		"name": "Trading post",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains"],
+		"gold": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Guilds",
+		"uniques": ["Can be built outside your borders","[+1 Gold] <after discovering [Economics]>", "Pillaging this improvement yields approximately [+20 Gold]"],
+		"shortcutKey": "T"
+	},
+	{
+		"name": "Chateau",
+		"uniqueTo": "France",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"gold": 1,
+		"culture": 2,
+		"turnsToBuild":7,
+		"techRequired": "Chivalry",
+		"uniques": [
+		    "Can be built outside your borders",
+			"Must be next to [Luxury resource]",
+			"Cannot be built on [Land] tiles <with [1] to [6] neighboring [Chateau] tiles>",
+			"Gives a defensive bonus of [50]%",
+			"[+2 Gold, +1 Culture] <after discovering [Flight]>",
+			"Cannot be built on [resource] tiles",
+			"Will not be replaced by automated units <hidden from users>"
+		]
+	},
+	{
+		"name": "Kasbah",
+		"uniqueTo": "Morocco",
+		"terrainsCanBeBuiltOn": ["Desert"],
+		"food": 1,
+		"production": 1,
+		"gold": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Chivalry",
+		"uniques": [
+			"Can be built outside your borders",
+			"Gives a defensive bonus of [50]%",
+			"Cannot be built on [resource] tiles",
+			"Will not be replaced by automated units <hidden from users>"
+		]
+	},
+	{
+		"name": "Landmark",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"culture": 1,
+		"turnsToBuild": 4,
+		"techRequired": "Archaeology",
+		"uniques": [
+			"[+1 Culture] <for every [Era number]>", // +1 Culture for each era of difference between the era of origin of the Antiquity Site and the current era
+			"Great Improvement",
+			"Can also be built on tiles adjacent to fresh water <hidden from users>",
+            "Can only be built to improve a resource <hidden from users>",
+			"Removes removable features when built <hidden from users>",
+            "Will not be replaced by automated units <hidden from users>",
+			"Remove [Antiquity Site] resources from this tile <hidden from users>",
+			"Pillaging this improvement yields approximately [+20 Gold]",
+			"Antiquity Dig Site","Can be built outside your borders",
+			"Only available <for [Archaeologist] units>",
+
+			// Archaeologist is consumed.
+			"Triggers a [Archaeological Dig - Destroy Unit] event <hidden from users>"
+		],
+		"civilopediaText": [
+			{ "text": "Landmarks are built from [Antiquity Site]s by [Archaeologist]s, consuming the unit." },
+			{ "separator": true },
+			{ "text": "Antiquity Site", "link": "Resource/Antiquity Site" },
+			{ "text": "Archaeologist", "link": "Unit/Archaeologist" }
+		]
+	},
+	{		"name": "Feitoria",
+		"uniqueTo": "Portugal",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 6, // Same as Fort?
+		"gold": 1, // Add the gold so that it's colored as a luxury improvement
+		"techRequired": "Navigation",
+		"uniques": [
+			"[-1 Gold] <hidden from users>", // Counter-act the gold: 1
+			"Gives a defensive bonus of [50]%","Can be built outside your borders",
+			"Can only be built on [{Coastal} {City-State}] tiles",
+			"Must be next to [Luxury resource]",
+			"Cannot be built on [resource] tiles <hidden from users>",
+			"Unavailable <within [4] tiles of a [Feitoria]> <hidden from users>", // Can't double-tap into the same resource
+			"Can be built outside your borders <hidden from users>",
+			"Will not be replaced by automated units <hidden from users>",
+			"Gain control over [Land] tiles in a [0]-tile radius <hidden from users>",
+			"Provides [1] [Citrus] <with [1] to [6] neighboring [Citrus] tiles>",
+			"Provides [1] [Cocoa] <with [1] to [6] neighboring [Cocoa] tiles>",
+			"Provides [1] [Copper] <with [1] to [6] neighboring [Copper] tiles>",
+			"Provides [1] [Cotton] <with [1] to [6] neighboring [Cotton] tiles>",
+			"Provides [1] [Crab] <with [1] to [6] neighboring [Crab] tiles>",
+			"Provides [1] [Dyes] <with [1] to [6] neighboring [Dyes] tiles>",
+			"Provides [1] [Furs] <with [1] to [6] neighboring [Furs] tiles>",
+			"Provides [1] [Gems] <with [1] to [6] neighboring [Gems] tiles>",
+			"Provides [1] [Gold Ore] <with [1] to [6] neighboring [Gold Ore] tiles>",
+			"Provides [1] [Incense] <with [1] to [6] neighboring [Incense] tiles>",
+			"Provides [1] [Ivory] <with [1] to [6] neighboring [Ivory] tiles>",
+			"Provides [1] [Jewelry] <with [1] to [6] neighboring [Jewelry] tiles>",
+			"Provides [1] [Marble] <with [1] to [6] neighboring [Marble] tiles>",
+			"Provides [1] [Pearls] <with [1] to [6] neighboring [Pearls] tiles>",
+			"Provides [1] [Porcelain] <with [1] to [6] neighboring [Porcelain] tiles>",
+			"Provides [1] [Salt] <with [1] to [6] neighboring [Salt] tiles>",
+			"Provides [1] [Silk] <with [1] to [6] neighboring [Silk] tiles>",
+			"Provides [1] [Silver] <with [1] to [6] neighboring [Silver] tiles>",
+			"Provides [1] [Spices] <with [1] to [6] neighboring [Spices] tiles>",
+			"Provides [1] [Sugar] <with [1] to [6] neighboring [Sugar] tiles>",
+			"Provides [1] [Truffles] <with [1] to [6] neighboring [Truffles] tiles>",
+			"Provides [1] [Whales] <with [1] to [6] neighboring [Whales] tiles>",
+			"Provides [1] [Wine] <with [1] to [6] neighboring [Wine] tiles>",
+			"Destroyed when pillaged <hidden from users>" // TODO: Considered an act of war against Portugal
+		]
+	},
+]
