@@ -53,7 +53,7 @@ PolicyBranchIcons/Piety
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyBranchIcons/Rationalism
+PolicyBranchIcons/Rationality
   rotate: false
   xy: 1164, 4
   size: 50, 50
@@ -193,7 +193,7 @@ PolicyIcons/Free Thought
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Humanism
+PolicyIcons/Humanity
   rotate: false
   xy: 526, 62
   size: 50, 50
@@ -368,7 +368,7 @@ PolicyIcons/Scientific Revolution
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Secularism
+PolicyIcons/Secularity
   rotate: false
   xy: 1338, 4
   size: 50, 50
