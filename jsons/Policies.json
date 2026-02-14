@@ -410,7 +410,7 @@
 
 	// Rationality: Science and other boost in society
 	{
-		"name": "Rationality",
+		"name": "Rationalism",
 		"era": "Renaissance era",
 		"priorities": {
             "Neutral": 0,
@@ -428,7 +428,7 @@
 		],
 		"policies": [
 			{
-				"name": "Secularity",
+				"name": "Secularism",
 				"uniques": [
 					"[+2 Science] from every specialist [in all cities]"
 				],
@@ -436,7 +436,7 @@
 				"column": 2
 			},
 			{
-				"name": "Humanity",
+				"name": "Humanism",
 				"uniques": [
 					"[-50]% weight to this choice for AI decisions",
 					"[Great Scientist] is earned [25]% faster"
@@ -471,7 +471,7 @@
 				"column": 2
 			},
 			{
-				"name": "Rationality Complete",
+				"name": "Rationalism Complete",
 				"uniques": [
 					"[1] Free Technologies",
 					"Adopt [Educated Elite] <hidden from users>", 
@@ -1630,5 +1630,6 @@
 		]
 	}
 ]
+
 
 
