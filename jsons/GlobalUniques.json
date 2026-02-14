@@ -1,0 +1,33 @@
+{
+  "name": "Global uniques",
+  "uniques":
+  [
+		// Great Merchant Trade Mission Calculations
+		// https://civilization.fandom.com/wiki/Great_Merchant_(Civ5)#Formula
+			"[+20]% Production when constructing [Granary] buildings [in your cities] <during the [Ancient era]> <hidden from users>",
+			"[+20]% Production when constructing [Market] buildings [in your cities] <during the [Classical era]> <hidden from users>",
+			"[+20]% Production when constructing [Castle] buildings [in your cities] <during the [Medieval era]> <hidden from users>",
+			"[+20]% Production when constructing [University] buildings [in your cities] <during the [Renaissance era]> <hidden from users>",
+			"[+20]% Production when constructing [Military Academy] buildings [in your cities] <during the [Industrial era]> <hidden from users>",
+			"[+20]% Production when constructing [Broadcast Tower] buildings [in your cities] <during the [Modern era]> <hidden from users>",
+			"[+20]% Production when constructing [Medical Lab] buildings [in your cities] <during the [Atomic era]> <hidden from users>",
+			"[+20]% Production when constructing [Bomb Shelter] buildings [in your cities] <during the [Information era]> <hidden from users>",
+	  "Triggers a [First Policy] event <upon discovering [Writing] technology>",
+	  "[-55]% maintenance costs <for [Water] units>","[-20]% maintenance costs <for [Land] units>",
+	        "Free [Settler] appears <for [Major] Civilizations> <upon entering the [Classical era]>",
+	        "Free [Settler] appears <for [City-States] Civilizations> <upon entering the [Classical era]>",
+	        "[3] free [Landsknecht] units appear <for [City-States] Civilizations> <upon entering the [Medieval era]>",
+	        "[3] free [Foreign Legion] units appear <for [City-States] Civilizations> <upon entering the [Industrial era]>",
+		"[-11]% Gold from Great Merchant trade missions <before the [Ancient era]>",
+		"[+11]% Gold from Great Merchant trade missions <during the [Classical era]>",
+		"[+18]% Gold from Great Merchant trade missions <during the [Medieval era]>",
+		"[+24]% Gold from Great Merchant trade missions <during the [Renaissance era]>",
+		"[+28]% Gold from Great Merchant trade missions <during the [Industrial era]>",
+		"[+32]% Gold from Great Merchant trade missions <during the [Modern era]>",
+		"[+34]% Gold from Great Merchant trade missions <during the [Atomic era]>",
+		"[+37]% Gold from Great Merchant trade missions <during the [Information era]>",
+		"[+38]% Gold from Great Merchant trade missions <during the [Modern era]>",
+		"[+40]% Gold from Great Merchant trade missions <starting from the [Future era]>",
+            "[+200]% Production when constructing [Military] units [in all cities]",
+]
+}
