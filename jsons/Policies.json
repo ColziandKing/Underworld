@@ -503,6 +503,7 @@
 				"name": "Maritime Infrastructure",
 				"uniques": [
 					"[+3 Production] [in all coastal cities]",
+					"Gain a free [Governor's Mansion] [in this city] <upon founding a city> <on foreign continents>",
 					"[+10]% Production when constructing [All] buildings [in all coastal cities]",
 				],
 				"row": 1,
@@ -543,7 +544,6 @@
 			{
 				"name": "Treasure Fleets",
 				"uniques": [
-					"Gain a free [Governor's Mansion] [in this city] <upon founding a city> <on foreign continents>",
 					"[+2 Gold] from each Trade Route" // TODO: +4 Gold from all your Sea Trade Routes
 				],
 				"row": 3,
@@ -1630,6 +1630,7 @@
 		]
 	}
 ]
+
 
 
 
