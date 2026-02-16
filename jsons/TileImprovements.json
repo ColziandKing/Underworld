@@ -1,0 +1,41 @@
+[
+	{
+		"name": "Farm",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains"],
+		"food": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Agriculture",
+		"uniques": ["Can be built outside your borders","Can also be built on tiles adjacent to fresh water",
+			"[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
+			"[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
+            "Pillaging this improvement yields approximately [+18 Gold]"],
+		"shortcutKey": "F"
+	},
+	{
+		"name": "Lumber mill",
+		"terrainsCanBeBuiltOn": ["Forest"],
+		"production": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Construction",
+		"uniques": ["Can be built outside your borders","[+1 Production] <after discovering [Scientific Theory]>", "Pillaging this improvement yields approximately [+10 Gold]"],
+		"shortcutKey": "L"
+	},
+	{
+		"name": "Mine",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"production": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Mining",
+		"uniques": ["Can be built outside your borders","[+1 Production] <after discovering [Chemistry]>", "Pillaging this improvement yields approximately [+20 Gold]"],
+		"shortcutKey": "M"
+	},
+	{
+		"name": "Trading post",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains"],
+		"gold": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Guilds",
+		"uniques": ["Can be built outside your borders","[+1 Gold] <after discovering [Economics]>", "Pillaging this improvement yields approximately [+20 Gold]"],
+		"shortcutKey": "T"
+	},
+]

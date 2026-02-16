@@ -1,0 +1,34 @@
+[
+  // Specia Policy
+	{
+		"name": "First Policy",
+		"text": "Choose your first policy!",
+		"presentation": "Alert",
+		"choices": [
+			{
+				"text": "Free Religion",
+				"uniques": [
+		 			"Adopt [Free Religion]",
+				]
+			},
+			{
+				"text": "Mandate Of Heaven",
+				"uniques": [
+		 			"Adopt [Mandate Of Heaven]",
+				]
+			},
+			{
+				"text": "Planned Economy",
+				"uniques": [
+		 			"Adopt [Planned Economy]",
+				]
+			},
+			{
+				"text": "Autarky",
+				"uniques": [
+		 			"Adopt [Autarky]",
+				]
+			}
+		]
+	},
+]

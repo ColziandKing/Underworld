@@ -1,0 +1,225 @@
+
+[
+	{
+		"name": "Persian Immortal",
+		"unitType": "Sword",
+		"replaces": "Spearman",
+		"uniqueTo": "Persia",
+		"movement": 2,
+		"strength": 15,
+		"cost": 66,
+		"requiredTech": "Bronze Working",
+		"upgradesTo": "Pikeman",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"promotions":["[Persian Immortal] ability"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Horse Archer",
+		"unitType": "Archery",
+		"uniqueTo": "The Huns",
+		"replaces": "Chariot Archer",
+		"movement": 4,
+		"strength": 10,
+		"rangedStrength": 12,
+		"cost": 66,
+		"requiredTech": "The Wheel",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["No defensive terrain bonus"],
+		"promotions": ["Accuracy I"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Foreign Legion",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 42,
+		"cost": 320,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Infantry",
+		"obsoleteTech": "Plastics",
+		"uniques": [
+			"Never appears as a Barbarian unit <hidden from users>",
+			"Can move immediately once bought",
+			"Only available <after adopting [Mercenary Army]>" // Only gifted from Militaristic City-States, or Volunteer Army policy
+		],
+		"promotions": [
+			"Foreign Lands Bonus"
+		],
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"text": "Volunteer Army",
+				"link": "Policy/Volunteer Army"
+			}
+		]
+	},
+	{
+		"name": "Galley",
+		"replaces": "Trireme",
+		"unitType": "Melee Water",
+		"uniqueTo": "Denmark",
+		"movement": 6,
+		"strength": 10,
+		"cost": 40,
+		"uniques": [
+			"Never appears as a Barbarian unit <hidden from users>",
+			"Can move after attacking", "[1] additional attacks per turn",
+                    "[2] free [Hand-Axe] units appear <by consuming this unit>",
+            "[+33]% Strength <vs cities> <when attacking>"],
+		"upgradesTo": "Galleass",
+		"obsoleteTech": "Astronomy",
+		"attackSound": "nonmetalhit"
+		//Barbarian unique naval unit, weaker and slower than Trireme.
+	},
+	{
+		"name": "Hand-Axe",
+		"replaces": "Chariot Archer",
+		"uniqueTo": "Denmark",
+		"unitType": "Archery",
+		"movement": 3,
+		"strength": 10,
+		"rangedStrength": 10,
+		"range": 2,
+		"cost": 56,
+		"uniques": [
+			"Never appears as a Barbarian unit <hidden from users>",
+			"Can move immediately once bought","[1] additional attacks per turn",
+            ],
+		"requiredTech": "The Wheel",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"attackSound": "nonmetalhit"
+	},
+    {
+        "name": "Koa",
+        "replaces": "Longswordsman",
+        "uniqueTo": "Polynesia",
+        "unitType": "Sword",
+        "movement": 2,
+        "strength": 23,
+        "cost": 120,
+        "requiredTech": "Steel",
+        "promotions": ["Amphibious"],
+        "upgradesTo": "Musketman",
+        "obsoleteTech": "Rifling",
+        "attackSound": "metalhit"
+    },
+    {
+        "name": "Pioneer",
+        "uniqueTo": "America",
+        "replaces": "Settler",
+        "unitType": "Scout",
+        "movement": 2,
+        "strength": 5,
+        "cost": 106,
+        "uniques": [
+            "Founds a new city <by consuming this unit>",
+            "Excess Food converted to Production when under construction",
+            "Requires at least [2] population"
+        ],
+        "promotions": ["Ignore terrain cost"],
+        "hurryCostModifier": 20,
+        "attackSound": "nonmetalhit"
+    },
+	{
+		"name": "Dromon",
+		"unitType": "Ranged Water",
+		"uniqueTo": "Byzantium",
+		"replaces": "Trireme",
+		"movement": 4,
+		"strength": 10,
+		"rangedStrength": 12,
+		"cost": 66,
+		"requiredTech": "Sailing",
+		"uniques": ["Cannot enter ocean tiles", "[+50]% Strength <vs [Water] units>"],
+		"upgradesTo": "Galleass",
+		"obsoleteTech": "Astronomy",
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Battering Ram",
+		"unitType": "Sword", // You might expect this to be a siege unit, but apparently it is not
+		"movement": 2,
+		"strength": 10,
+		"cost": 95,
+		"requiredTech": "Construction",
+		"obsoleteTech": "Chemistry",
+		"upgradesTo": "Cannon",
+		"uniques": ["[+300]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", 
+			"[-22]% Strength <when defending>","[-1] Sight", "Can only attack [City] units"],
+		"promotions":  ["Cover I"],
+		"attackSound": "throw"
+	},
+	{
+		"name": "Catapult",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 7,
+		"rangedStrength": 8,
+		"cost": 75,
+		"requiredTech": "Mathematics",
+		"obsoleteTech": "Physics",
+		"upgradesTo": "Trebuchet",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "No defensive terrain bonus",
+			"Must set up to ranged attack", "[-1] Sight", 
+			"[-33]% Strength <when defending>","Never appears as a Barbarian unit"],
+		"hurryCostModifier": 20,
+		"attackSound": "throw"
+	},
+	{
+		"name": "Ballista",
+		"unitType": "Siege",
+		"replaces": "Catapult",
+		"uniqueTo": "Rome",
+		"movement": 2,
+		"strength": 8,
+		"rangedStrength": 10,
+		"cost": 75,
+		"requiredTech": "Mathematics",
+		"obsoleteTech": "Physics",
+		"upgradesTo": "Trebuchet",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "No defensive terrain bonus",
+			"[-33]% Strength <when defending>", "Must set up to ranged attack", "[-1] Sight"],
+		"hurryCostModifier": 20,
+		"attackSound": "throw"
+	},
+	{
+		"name": "Diplomat",
+		"unitType": "Civilian",
+		"uniques": ["May enter foreign tiles without open borders", "May Paradrop to [Land] tiles up to [10] tiles away", "Can undertake a trade mission with City-State, giving a large sum of gold and [90] Influence", "Unbuildable", "Uncapturable"
+		],
+		"movement": 2
+	},
+	{
+        "name": "Quechua",
+        "unitType": "Sword",
+        "uniqueTo": "Inca",
+        "replaces": "Warrior",
+        "movement": 2,
+        "strength": 14,
+        "cost": 40,
+        "obsoleteTech": "Iron Working",
+        "uniques": [
+            "May upgrade to [Spearman] through ruins-like effects",
+            "Can build [Terrace farm] improvements on tiles",
+        ],
+        "promotions": [
+            "Ignore terrain cost"
+        ],
+        "upgradesTo": "Swordsman",
+        "attackSound": "nonmetalhit"
+    },
+	{
+		"name": "Tokl",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 5,
+		"cost": 25,
+		"requiredTech": "Future Tech",
+		"uniques": ["Gain [2500000] [Gold]","May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit"],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "nonmetalhit"
+	},
+]
