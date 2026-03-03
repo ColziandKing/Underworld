@@ -4,7 +4,7 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-NationPortraits/Almohad
+NationPortraits/English
   rotate: false
   xy: 4, 1768
   size: 188, 188
