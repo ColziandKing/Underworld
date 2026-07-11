@@ -39,7 +39,7 @@ NationPortraits/Austria
   orig: 188, 188
   offset: 0, 0
   index: -1
-NationPortraits/Ayyubids
+NationPortraits/The Ayyubids
   rotate: false
   xy: 396, 1768
   size: 188, 188
@@ -81,7 +81,7 @@ NationPortraits/Belgium
   orig: 188, 188
   offset: 0, 0
   index: -1
-NationPortraits/Boers
+NationPortraits/The Boers
   rotate: false
   xy: 4, 984
   size: 188, 188
@@ -130,7 +130,7 @@ NationPortraits/China
   orig: 188, 188
   offset: 0, 0
   index: -1
-NationPortraits/Confederacy
+NationPortraits/Confederate America
   rotate: false
   xy: 396, 1180
   size: 188, 188
@@ -214,7 +214,7 @@ NationPortraits/Greece
   orig: 188, 188
   offset: 0, 0
   index: -1
-NationPortraits/Hittites
+NationPortraits/The Hittites
   rotate: false
   xy: 200, 592
   size: 188, 188
@@ -445,7 +445,7 @@ NationPortraits/Union
   orig: 188, 188
   offset: 0, 0
   index: -1
-NationPortraits/Vandal
+NationPortraits/The Vandals
   rotate: false
   xy: 1572, 1376
   size: 188, 188
