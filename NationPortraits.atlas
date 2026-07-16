@@ -81,7 +81,7 @@ NationPortraits/Belgium
   orig: 188, 188
   offset: 0, 0
   index: -1
-NationPortraits/The Boers
+NationPortraits/South Africa
   rotate: false
   xy: 4, 984
   size: 188, 188
@@ -186,7 +186,7 @@ NationPortraits/France
   orig: 188, 188
   offset: 0, 0
   index: -1
-NationPortraits/Franks
+NationPortraits/Francia
   rotate: false
   xy: 788, 1376
   size: 188, 188
@@ -263,7 +263,7 @@ NationPortraits/Korea
   orig: 188, 188
   offset: 0, 0
   index: -1
-NationPortraits/Manchu
+NationPortraits/Manchuria
   rotate: false
   xy: 4, 200
   size: 188, 188
