@@ -4,7 +4,7 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-NationPortraits/English
+NationPortraits/England
   rotate: false
   xy: 4, 1768
   size: 188, 188
@@ -158,7 +158,7 @@ NationPortraits/Egypt
   orig: 188, 188
   offset: 0, 0
   index: -1
-NationPortraits/England
+NationPortraits/Great Britain 
   rotate: false
   xy: 4, 592
   size: 188, 188
@@ -438,7 +438,7 @@ NationPortraits/The Ottomans
   orig: 188, 188
   offset: 0, 0
   index: -1
-NationPortraits/Union
+NationPortraits/Union America
   rotate: false
   xy: 1376, 1180
   size: 188, 188
